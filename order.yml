@@ -1,8 +1,8 @@
-spring:
-  application:
-    name: order
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/SpringCloud_Sell?useUnicode=true&serverTimezone=Asia/Shanghai&characterEncoding=UTF-8&autoReconnect=true&useSSL=false
-    username: root
-    password: root
+# spring:
+#   application:
+#     name: order
+#   datasource:
+#     driver-class-name: com.mysql.cj.jdbc.Driver
+#     url: jdbc:mysql://127.0.0.1:3306/SpringCloud_Sell?useUnicode=true&serverTimezone=Asia/Shanghai&characterEncoding=UTF-8&autoReconnect=true&useSSL=false
+#     username: root
+#     password: root
