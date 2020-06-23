@@ -2,9 +2,25 @@ spring:
   application:
     name: order
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/SpringCloud_Sell?useUnicode=true&serverTimezone=Asia/Shanghai&characterEncoding=UTF-8&autoReconnect=true&useSSL=false
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/springcloud_sell?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false
     username: root
-    password: root
+    password: root123
+  rabbitmq:
+    host: 10.20.21.136
+    port: 5672
+    username: wangjie
+    password: wangjie
+  redis:
+    host: 10.20.21.136
+    port: 6379
+    password: redis  
 env:
-  test660
+  test9
+feign:
+  client:
+    config: 
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: basic
