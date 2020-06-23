@@ -16,7 +16,7 @@ spring:
     port: 6379
     password: redis  
 env:
-  test9
+  test10
 feign:
   client:
     config: 
